@@ -1,0 +1,20 @@
+.mycodes, .NeovimConf {
+    border: 2px solid green;
+    border-radius: 12px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 
+        0 8px 25px rgba(0, 100, 0, 0.15),
+        inset 0 1px 0 rgba(255, 255, 255, 0.5);
+    margin: 10px 0;
+}
+
+h1, h2, h3, h4 {
+    border: 2px solid greenyellow;
+    background: linear-gradient(135deg, rgba(173, 255, 47, 0.2), rgba(144, 238, 144, 0.1));
+    border-radius: 15px;
+    padding: 12px 20px;
+    box-shadow:
+        0 4px 15px rgba(0, 0, 0, 0.1),
+        inset 0 1px 0 rgba(255, 255, 255, 0.6);
+}

@@ -6,20 +6,56 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My WebSite @mexicanbr</title>
   <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 </head>
 <body>
-  <h1>Welcome To My Page 🥱</h1>
+  <div id="particles-js"></div>
   <div class="mycodes">
     <h1>My Codes</h1>
-    <h2>Python Codes</h2>
-    <h3>C Codes</h3>
-    <h4>Bash Codes</h4>
+    <a href="python.html" >Python Codes</a>
+    <a>C Codes</a>
+    <a>Bash Codes</a>
   </div>
   <div class="NeovimConf">
-    <h1>My Configuration For Neovim</h1>
+    <h1>NEOVIM CONF</h1>
     <a href="https://github.com/mexicanbr0auth/nvim-conf">CONF</a>
 
   </div>
+  <script>
+    particlesJS('particles-js', {
+        particles: {
+            number: { value: 80, density: { enable: true, value_area: 800 } },
+            color: { value: "#00ff00" }, // VERDE igual seu tema!
+            shape: { type: "circle" },
+            opacity: { value: 0.5, random: true },
+            size: { value: 3, random: true },
+            line_linked: {
+                enable: true,
+                distance: 150,
+                color: "#00ff00",
+                opacity: 0.4,
+                width: 1
+            },
+            move: {
+                enable: true,
+                speed: 2,
+                direction: "none",
+                random: true,
+                straight: false,
+                out_mode: "out",
+                bounce: false
+            }
+        },
+        interactivity: {
+            detect_on: "canvas",
+            events: {
+                onhover: { enable: true, mode: "repulse" },
+                onclick: { enable: true, mode: "push" },
+                resize: true
+            }
+        }
+    });
+</script>
   
 </body>
 </html>
